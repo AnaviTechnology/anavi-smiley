@@ -62,7 +62,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "plots/"))
+      (outputdirectory "plots/anavi-smiley-10/"))
   )
 
   (net 0 "")
@@ -434,7 +434,7 @@
   (gr_text LED1 (at 173.1 81.7 90) (layer F.SilkS) (tstamp 5E29FB5E)
     (effects (font (size 0.8 0.8) (thickness 0.1)))
   )
-  (gr_text "Made in Plovdiv,\nBulgaria, EU" (at 183 91 90) (layer F.SilkS) (tstamp 5E29F9C0)
+  (gr_text "Made in Plovdiv,\nBulgaria, EU" (at 182.8 91 90) (layer F.SilkS) (tstamp 5E29F9C0)
     (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
   (gr_text Smiley (at 162.8 88.6) (layer F.SilkS) (tstamp 5E29F46F)
@@ -469,7 +469,7 @@
   (segment (start 164.5 89.24) (end 164.5 79.32) (width 0.5) (layer B.Cu) (net 6))
   (segment (start 171.46 96.2) (end 164.5 89.24) (width 0.5) (layer B.Cu) (net 6))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5B24632E) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E29FBF8) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
